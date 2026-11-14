@@ -1,0 +1,507 @@
+{
+  "schema": "public_archive_source_manifest_v1",
+  "scope": "Canonical Git blob bytes; excludes this manifest itself",
+  "status": "Retired independent experimental source, not a production release",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 20,
+      "sha256": "53bd72599f9e8cbed776d070e723b4333192ca7b3a3a55c199f7a02f854b923b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 378,
+      "sha256": "6121f1fbddc637084f3b6a0bd79838a2b4cb76d7f247865fd9d7078267aacfcb"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2156,
+      "sha256": "a11b80d3a17e5b499cb77a68180f4b7d0ef6f6fdbae5e7c837be5260dca65618"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 667,
+      "sha256": "382cb787116865ed3f2c4fbb333c7b49ace215b9b5417cc93890268a419c2ae9"
+    },
+    {
+      "path": "Cargo.lock",
+      "bytes": 27930,
+      "sha256": "0339132d74fbf402e951be3822e8d30e461bcc28cea5221f056ef5483f002713"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 767,
+      "sha256": "d7940d97a71dcacc7ccc8bc806cbc2311abb8f759d670805179dfe771b91293d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "e7d2d87c28ea82aa65d18a65c0a67f282641ae4f74e2819c167ec9871748e5bf"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 297,
+      "sha256": "1fb34dba156d2a378295c694beff99c93efd77435cbd79f02bc657d22cfdaf59"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3196,
+      "sha256": "45a7ce8790553cbd012306e4ad7252fd3205765e2ee64d836bd7f23359a5d17e"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1287,
+      "sha256": "f93209f44258504047cab72d91a0aa65c4be4de01b7670503fb8a3da2e48bf29"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 917,
+      "sha256": "cc34367f3764d55bfcc17c72aa3450ebbe3c0f860e982723993411cdf3e7bfa5"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2555,
+      "sha256": "c2ec40b80087326a2c749b49340aea84032d0e840e37a2dd90e6921b41b18ee0"
+    },
+    {
+      "path": "docs/BUILDING.md",
+      "bytes": 2876,
+      "sha256": "c99dbb57a1613ff949ab59d981906aa7c555c2eacf6b4ade154b8c5c3ef36c0b"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 1679,
+      "sha256": "403e792ae76fc42ad47f7bd000ee4bb7ce8268c07cbd8675fa516e7e41ee0629"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 1989,
+      "sha256": "56fc1ea6962f4a2fe28af3fd079d3e05216153f1324844a49a06b9bd08a112f2"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2570,
+      "sha256": "7184cf600689e55905540e00482e9fe9c9f8f04230cefd79ddaec8c7cc42fc99"
+    },
+    {
+      "path": "integrations/README.md",
+      "bytes": 1865,
+      "sha256": "39c02c2f18c7e296d51629f1188212568a89b5c04520c178a1ee7c735c8441f3"
+    },
+    {
+      "path": "integrations/Spiffy_Mac_Automation/config/listary_integration.json",
+      "bytes": 2154,
+      "sha256": "e9cbaae5205bd5fbadb67eff1b9c30a85609a93104ad39e51655c187151c5c7c"
+    },
+    {
+      "path": "integrations/Spiffy_Mac_Automation/listary_integration.py",
+      "bytes": 35925,
+      "sha256": "164f09db64b3b80453a92918de01b192054215585993bcc30c6247a5a6c78954"
+    },
+    {
+      "path": "integrations/Spiffy_Mac_Automation/tests/test_listary_integration.py",
+      "bytes": 8970,
+      "sha256": "f6439c29186f51acd70b1a385e4c5e2b9556cf8af24e02c2ef4995385fcad7a1"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_content_provider.py",
+      "bytes": 2760,
+      "sha256": "7f77286b0051a76e6cb65af8642997d465b542400d6c492345ffd9a8f82cc1de"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_content_search.py",
+      "bytes": 22293,
+      "sha256": "5761978e062f4c1fddfc9456234cc6abc9ed4802f90660f0ea933e17699025f2"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_content_worker.py",
+      "bytes": 15601,
+      "sha256": "a9ecab595a6784a2c92568ed487b2ff76d4c7894a68a250f988fc4cdcf5135d3"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_search.py",
+      "bytes": 451018,
+      "sha256": "760f5e72d14cc3e9567056ee6bcaa4191f8711c408eab1d293fed32cafe8e28f"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_windows_file_dialog.py",
+      "bytes": 92592,
+      "sha256": "55ec7fa86806eafdd5d58cb04e935b3f530a6b651a85a686896c9125ac170978"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/spiffy_ui/listary_windows_hotkey.py",
+      "bytes": 11048,
+      "sha256": "7e8d4f4814076d3d32752c584665be94fc77e68992a702df1367de0f31149ad2"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/tests/test_listary_content_search.py",
+      "bytes": 19371,
+      "sha256": "47cf5530ca58d01090e717b51efa721dab944b4ad4697526628c00a73ade96aa"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/tests/test_listary_search_integration.py",
+      "bytes": 396569,
+      "sha256": "6f05124b49bb8efc48a18a2e958c6458825feb72c0558c47182a34f471f5589a"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/tests/test_listary_windows_file_dialog.py",
+      "bytes": 60785,
+      "sha256": "4d280bcd7ba43a74294fd5325b4cf8edaba2ff1201cfa6377659b4f949ba4764"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/tests/test_listary_windows_hotkey.py",
+      "bytes": 4990,
+      "sha256": "d644e0ec9692c9d938e27c020236263dc5ad28d6fe773f55f67b02f0f4932297"
+    },
+    {
+      "path": "integrations/Spiffy_Workspace/tests/test_listary_workspace_search_integration.py",
+      "bytes": 46991,
+      "sha256": "9bc47105dd2ce9cc721ea0b5f8ec842be4c0aa48459493afecfe610cfc84cf06"
+    },
+    {
+      "path": "macos/FileDialogFixture/main.m",
+      "bytes": 2966,
+      "sha256": "3a67cdfe10381a0e84a9c29462b4be83d6e98b93b5d2d5ff45e5cefe354f28d2"
+    },
+    {
+      "path": "macos/QuickSwitchAcceptance/ax_file_dialog.js",
+      "bytes": 14715,
+      "sha256": "9baa13e726f3d98a533819a055deab252a43296c249a4d281a9297371ee5f5ae"
+    },
+    {
+      "path": "macos/WindowFixture/ax_window_focus.js",
+      "bytes": 1379,
+      "sha256": "dc471b7cc9a8c73fba532370aceda86d7eeee8cd69f507feb22f3081165f932a"
+    },
+    {
+      "path": "macos/WindowFixture/main.m",
+      "bytes": 5047,
+      "sha256": "1b53b142aa15388c6732683e7d9925d457d75ded65c9569b9822e8700eec3ee0"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 14,
+      "sha256": "93c4ab5f175d24229e46ec70a8ecaeb6db8b36e3f54d8005808044c060acbc92"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "bytes": 86,
+      "sha256": "8e390d6a0838315f972690f46ef8bae8b7ecc9ee6c1ed70140ef852869c2482e"
+    },
+    {
+      "path": "rust/listary-agent/Cargo.toml",
+      "bytes": 293,
+      "sha256": "5bdd9253a2b124ca9037fc359a4de4d9912d43f8790a7db2bda4eaeb16281fb1"
+    },
+    {
+      "path": "rust/listary-agent/src/lib.rs",
+      "bytes": 158700,
+      "sha256": "410475fe769e4a948e967e25b71753b95cec262bf95be4f9ca3850ce047e029e"
+    },
+    {
+      "path": "rust/listary-agent/src/main.rs",
+      "bytes": 6946,
+      "sha256": "9fb8083b9492f6ace34f96801ad4d1626e3232d87c37e2bd574abe24c2563cfe"
+    },
+    {
+      "path": "rust/listary-core/Cargo.toml",
+      "bytes": 913,
+      "sha256": "749960d13d02c16a7462d6528a6fff9cc8dcd3d047d51105777313f00bcbedca"
+    },
+    {
+      "path": "rust/listary-core/examples/benchmark_core.rs",
+      "bytes": 16588,
+      "sha256": "87e9aa9eefff401774d5e9b4579bf6e5dbd6815dbcf85fa5921a4d95420911a1"
+    },
+    {
+      "path": "rust/listary-core/examples/benchmark_pinyin.rs",
+      "bytes": 8309,
+      "sha256": "800d8278450eebe41b81ee73c158afeca7c52abdc28c02d00eefa4af9052baaa"
+    },
+    {
+      "path": "rust/listary-core/examples/benchmark_priority_rules.rs",
+      "bytes": 5240,
+      "sha256": "0381bc69050714a6315af5b5ced8e47daeca853d469c54d2b851a98b6d7d7ed2"
+    },
+    {
+      "path": "rust/listary-core/src/cache.rs",
+      "bytes": 59781,
+      "sha256": "2b8a1230cd6ffd18ea2a869ead9fa8fde893e14b91620a01b9e3f5d414b2388a"
+    },
+    {
+      "path": "rust/listary-core/src/cancel.rs",
+      "bytes": 613,
+      "sha256": "3eb23de18898bad0b66aab028d1c169b06059991c544dd2cf558182ff0e63bf7"
+    },
+    {
+      "path": "rust/listary-core/src/commands_actions.rs",
+      "bytes": 23802,
+      "sha256": "625d1c2ab48a7fae3b30d0637118313790d7a92a8210edc70ce1fd27632de858"
+    },
+    {
+      "path": "rust/listary-core/src/core.rs",
+      "bytes": 109001,
+      "sha256": "e6c3c32fbd3722a769f9226bb91256f2d337ee7e1b35b73a22ed6b88b8f554f9"
+    },
+    {
+      "path": "rust/listary-core/src/error.rs",
+      "bytes": 1425,
+      "sha256": "394d7ad4b05b5c10facda066e8a60532d42ad0e185e7ccd63b1f8e789303cb9e"
+    },
+    {
+      "path": "rust/listary-core/src/facets.rs",
+      "bytes": 9979,
+      "sha256": "56688125c30e0d1bbb962ebe71e0bf2354defb922e21922fed2b20e7d79ce011"
+    },
+    {
+      "path": "rust/listary-core/src/favorites.rs",
+      "bytes": 28418,
+      "sha256": "f0dffcee44867fd3886f04b90ca00474e5f3c40418b7e1dacb588e6a345d0dcd"
+    },
+    {
+      "path": "rust/listary-core/src/filters.rs",
+      "bytes": 18073,
+      "sha256": "0010e8235392fc946e0c63303e6fe63bdbeeb869cae9a887ed000ce2b882bd7b"
+    },
+    {
+      "path": "rust/listary-core/src/history.rs",
+      "bytes": 46168,
+      "sha256": "63480d05262f1c9183dc30f5c82b5559999e0695595f8e899abc3b44e8fa545b"
+    },
+    {
+      "path": "rust/listary-core/src/indexer.rs",
+      "bytes": 22257,
+      "sha256": "245ab933df067f492fd7949591f73d08d5c8bd0ea5db5c391bbe8da940201cc1"
+    },
+    {
+      "path": "rust/listary-core/src/lib.rs",
+      "bytes": 1941,
+      "sha256": "be2d47fe0dccee6ad1899511d19ec6d7b7a69a3c7ca6b4785efc19100d7b99c6"
+    },
+    {
+      "path": "rust/listary-core/src/logging.rs",
+      "bytes": 2612,
+      "sha256": "29f02da641310b0300d8efdf0d5676b6736c5ccb00edafc43689c76da0fbafdb"
+    },
+    {
+      "path": "rust/listary-core/src/matcher.rs",
+      "bytes": 15479,
+      "sha256": "33029c2ec717fd43b42b746f43aace2772ba01299028e16d91320527695c3610"
+    },
+    {
+      "path": "rust/listary-core/src/model.rs",
+      "bytes": 20812,
+      "sha256": "221d95fb82d4e59a21ee00513c4394edf1cbbb2e9362c610f454776a11284c17"
+    },
+    {
+      "path": "rust/listary-core/src/portable.rs",
+      "bytes": 60942,
+      "sha256": "7c2ae734cc4326dedebb38cd96c8aad0685611fb4ed7996b901c260de067ad02"
+    },
+    {
+      "path": "rust/listary-core/src/priority_rules.rs",
+      "bytes": 19460,
+      "sha256": "10ff829f56e426655167bd937599c4dac88b736bcb413a32d14c43a37ec85377"
+    },
+    {
+      "path": "rust/listary-core/src/query.rs",
+      "bytes": 16879,
+      "sha256": "48d1391d4365aabb6890a85cf45b6630b2ab2d68b88e544a06de68221292a030"
+    },
+    {
+      "path": "rust/listary-core/src/rank.rs",
+      "bytes": 1883,
+      "sha256": "51fa0f2235e60de4d6a4856017646b03c1e0aa20b8bb61f7c60677608717834b"
+    },
+    {
+      "path": "rust/listary-core/src/store.rs",
+      "bytes": 32649,
+      "sha256": "5188208c7a87d34502e47af6994cee4e34412c502c219ca0adc5897d17933011"
+    },
+    {
+      "path": "rust/listary-core/src/test_fault.rs",
+      "bytes": 1101,
+      "sha256": "157819d3ccefecd751b397302f6a41e5f16644263d43bea6447ec0e8e2727c44"
+    },
+    {
+      "path": "rust/listary-core/src/text.rs",
+      "bytes": 2059,
+      "sha256": "7dc7385b3f099ff637498e9a3ac181008b51b0b73ccf94b485aa37721365dd72"
+    },
+    {
+      "path": "rust/listary-core/src/transliteration.rs",
+      "bytes": 9705,
+      "sha256": "c95831669e71ec82ffbc07055be89a505ccff17ff9f64cbe00ebc54c4f714cb0"
+    },
+    {
+      "path": "rust/listary-core/src/web_search.rs",
+      "bytes": 22625,
+      "sha256": "2d09a50c83b39a97397fe8ece1b1701beb3ff74ded14d7409c042c9c88097cc2"
+    },
+    {
+      "path": "rust/listary-core/src/workspace_catalog.rs",
+      "bytes": 23062,
+      "sha256": "fb8f767335bd12f7d4db1fc51e9a6d7129a45c3b881afcc53c949ce57193ba6e"
+    },
+    {
+      "path": "rust/listary-core/tests/catalog_schema.rs",
+      "bytes": 17221,
+      "sha256": "b2f6cb6e9416b39673ed56571a01902c67e9378144d095e9d465fa178495730c"
+    },
+    {
+      "path": "rust/listary-core/tests/core_integration.rs",
+      "bytes": 96164,
+      "sha256": "c42c14c0e794366c2fdb3708f39d34c61bc9289e38cac8733682fb1e37cef78f"
+    },
+    {
+      "path": "rust/listary-core/tests/correctness_contracts.rs",
+      "bytes": 8570,
+      "sha256": "132c87c7249b7a122d40067525f80d52749df43e94813cbf20319a0e4e471aa4"
+    },
+    {
+      "path": "rust/listary-core/tests/file_search_paging.rs",
+      "bytes": 22893,
+      "sha256": "1c5e73df792694d39de80cf56222401cdf5cec993a768ecd4486c34bfd8cc956"
+    },
+    {
+      "path": "rust/listary-core/tests/filter_presets.rs",
+      "bytes": 4215,
+      "sha256": "104a8cede7e0e238904fa30570f547755b22d31d6acb542b450b67beab8f6cd9"
+    },
+    {
+      "path": "rust/listary-core/tests/persistence_faults.rs",
+      "bytes": 17465,
+      "sha256": "fae0eaf52d0cfdf0a21390375accfe53813524cef76dd72ec29f4c2a570aca0c"
+    },
+    {
+      "path": "rust/listary-core/tests/pinyin_search.rs",
+      "bytes": 7930,
+      "sha256": "af2c6e67eb86110e629d3ae80b7b1599810154b2d61d914998cff3b6ad9b48da"
+    },
+    {
+      "path": "rust/listary-core/tests/portable_config.rs",
+      "bytes": 41283,
+      "sha256": "de4ca32f15d1d1840ebdba5f5c7073f1d048f569da42f833259d6e40d1d6927f"
+    },
+    {
+      "path": "rust/listary-core/tests/portable_config_faults.rs",
+      "bytes": 10004,
+      "sha256": "39bb0e854c6940e505e76feffa3e8ffc156c12c59795f27b86852d30534d82dd"
+    },
+    {
+      "path": "rust/listary-core/tests/priority_rules.rs",
+      "bytes": 14871,
+      "sha256": "15846ba9ad56f2cb3aed8b30f1c392079a4c5ca264ca79310f044f42f15d149f"
+    },
+    {
+      "path": "rust/listary-core/tests/workspace_catalog_provider.rs",
+      "bytes": 12280,
+      "sha256": "0127a724e2a2dd8485a92986b61fd85505aa4e0906136d475f5bc394d3e30e0d"
+    },
+    {
+      "path": "rust/listary-core/tests/zero_query_recommendations.rs",
+      "bytes": 9177,
+      "sha256": "df59c9781573aab5c32753e4ae1913f2305e4cef5c633d83833ac5d6d009e475"
+    },
+    {
+      "path": "rust/listary-ffi/Cargo.toml",
+      "bytes": 355,
+      "sha256": "dc031b80edbf70b62c488f2e0772d66a4bda6ac6a54b978e466ffca52839f937"
+    },
+    {
+      "path": "rust/listary-ffi/include/listary_core.h",
+      "bytes": 7694,
+      "sha256": "2fb10127bd4496aeb19411bdab7ac62a4179f6ec81f40f0f5bd9d840f4f271cc"
+    },
+    {
+      "path": "rust/listary-ffi/src/lib.rs",
+      "bytes": 57212,
+      "sha256": "299bc83198e74277b54daa99dbcdc3510e67c96138ff306cad46f47ebe62b62f"
+    },
+    {
+      "path": "rust/listary-ffi/tests/abi_contract.rs",
+      "bytes": 68778,
+      "sha256": "00ca2cce0befbdafeb94ac8d1df86f24ac6cbb4e39636289c24f512b75cf0cb4"
+    },
+    {
+      "path": "rust/listary-ffi/tests/cancellation_lifecycle.rs",
+      "bytes": 13327,
+      "sha256": "00fb39f5f9c2976c0fa1f2cbf934cffcd148869b0c9787ad28930e24668eb8d1"
+    },
+    {
+      "path": "rust/listary-ffi/tests/file_search_abi.rs",
+      "bytes": 9221,
+      "sha256": "d494314f0989152255557a041265f1c3c228c74d7ea87211314da96dec8f3058"
+    },
+    {
+      "path": "rust/listary-ffi/tests/input_bounds.rs",
+      "bytes": 5086,
+      "sha256": "bd897dc8e8f67bf46e5534c08cecd3e3bce0c5acaad1db11f615d5e6e4faa92a"
+    },
+    {
+      "path": "tools/create_source_handoff.py",
+      "bytes": 49792,
+      "sha256": "b076c2fac035f479df9978e329009aa69b12ad992a815f113d54cb55821bd028"
+    },
+    {
+      "path": "tools/install-windows-agent.ps1",
+      "bytes": 37378,
+      "sha256": "4705e201e958f1c3c87f5ac5bc78d6211e0942549bacd6215603730ef0cc8420"
+    },
+    {
+      "path": "tools/macos_bridge_bootstrap.py",
+      "bytes": 104418,
+      "sha256": "a1268bf72201736aed0ff2ac55ccb20af4a4fd0f90f69b5c2126d40a6e602ad2"
+    },
+    {
+      "path": "tools/physical_mac_acceptance.py",
+      "bytes": 49433,
+      "sha256": "847147b2e5cb1028444e6f4eab65552a426d2b83232bbf7c994e0a18dcfe6355"
+    },
+    {
+      "path": "tools/quick_switch_acceptance.py",
+      "bytes": 102464,
+      "sha256": "939d9d10a659c4037a7c0cfbe5fba006752f46f9626c4f232280a6c20cfdef0e"
+    },
+    {
+      "path": "tools/run-core-benchmarks.ps1",
+      "bytes": 1224,
+      "sha256": "86b403b83199bcad43baf0bd9d9d67befdd7b6b8f0d3211bdd401e8142ea81b3"
+    },
+    {
+      "path": "tools/run-core-validation.ps1",
+      "bytes": 1800,
+      "sha256": "94c4b3ddd3acf0055d3bd93432f87ebf7d7e4ccb24b6da3a6359da50880a837b"
+    },
+    {
+      "path": "tools/tests/test_create_source_handoff.py",
+      "bytes": 20644,
+      "sha256": "086c93d3336fea71c657a96242af9910e72b0c10bf8d7e065b00565abc8d1057"
+    },
+    {
+      "path": "tools/tests/test_macos_bridge_bootstrap.py",
+      "bytes": 25565,
+      "sha256": "2756146eeb91bd5c3986eced20ae8817d0df4956b1810b25e01337d8be23b893"
+    },
+    {
+      "path": "tools/tests/test_physical_mac_acceptance.py",
+      "bytes": 14328,
+      "sha256": "87fd2c96731ef36678f661a2afb7509bf9245005122e65bfafbe6f8b0d2c3380"
+    },
+    {
+      "path": "tools/tests/test_quick_switch_acceptance.py",
+      "bytes": 20500,
+      "sha256": "57b7642445ce6ce66659dbebf9a086ab486431bb547472d9c8dcb3c053b6ddff"
+    },
+    {
+      "path": "tools/uninstall-windows-agent.ps1",
+      "bytes": 8279,
+      "sha256": "408aad363d3419514183761152de5eb1986a75f78472780fb417ff5584e0f6bd"
+    },
+    {
+      "path": "tools/verify_source.py",
+      "bytes": 1039,
+      "sha256": "e4d5aeba77b1cec815df806d762e2aeaee5a1182805d789a2d5107c03dda8d22"
+    }
+  ]
+}
