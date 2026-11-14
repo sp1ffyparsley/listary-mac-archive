@@ -1,0 +1,70 @@
+{
+  "schema": "spiffy_listary_integration_v1",
+  "workspace_env": "LISTARY_MAC_PORT_ROOT",
+  "workspace_candidates": [],
+  "expected_contract": {
+    "api_version": 9,
+    "portable_schema_version": 6,
+    "public_symbol_count": 42
+  },
+  "default_mac_state_dir": "~/Library/Application Support/ListaryMac/state",
+  "default_portable_artifact": "private/listary/listary-portable.json",
+  "canonical_owners": {
+    "catalog": "Listary Mac Port/rust/listary-core -> RocksDB",
+    "query_ranking_history": "Listary Mac Port/rust/listary-core",
+    "native_boundary": "Listary Mac Port/rust/listary-ffi/include/listary_core.h",
+    "portable_configuration": "Listary Mac Port/rust/listary-core/src/portable.rs + listary-portable-config",
+    "filesystem_events": "ListaryMac native FSEvents -> listary_core_reconcile_paths",
+    "finder_open_save": "ListaryMac native Accessibility adapter -> shared core candidates",
+    "acceptance": "Listary Mac Port/tools/quick_switch_acceptance.py"
+  },
+  "surfaces": {
+    "launcher": {
+      "core_calls": [
+        "listary_core_search",
+        "listary_core_record_activation"
+      ],
+      "contextual": false
+    },
+    "file_search": {
+      "core_calls": [
+        "listary_core_search",
+        "listary_core_facet_counts"
+      ],
+      "contextual": false
+    },
+    "quick_switch": {
+      "core_calls": [
+        "listary_core_search",
+        "listary_core_recommendations",
+        "listary_core_record_activation"
+      ],
+      "contextual": false,
+      "kinds": [
+        "folder"
+      ]
+    },
+    "finder_context_search": {
+      "core_calls": [
+        "listary_core_search"
+      ],
+      "contextual": true
+    },
+    "open_save_handoff": {
+      "core_calls": [
+        "listary_core_search",
+        "listary_core_recommendations"
+      ],
+      "native_adapter": "Accessibility",
+      "post_navigation_readback_required": true
+    }
+  },
+  "ownership_rules": {
+    "single_state_directory": true,
+    "single_index_owner": true,
+    "single_filesystem_watcher_owner": true,
+    "spiffy_creates_index": false,
+    "spiffy_creates_watcher": false,
+    "spiffy_reranks_results": false
+  }
+}

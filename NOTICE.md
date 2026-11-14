@@ -1,0 +1,1 @@
+Independent project source only. No commercial Listary binaries, resources, activation data or reconstructed proprietary implementation are licensed by this repository. Cargo.lock records dependencies; their individual licenses must be honored. Review provenance and naming before public release.
