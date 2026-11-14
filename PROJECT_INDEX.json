@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "schema_note": "Repository-specific descriptive index; not an AI-discovery standard",
+  "name": "Listary for Mac experiment — open-source Rust file-search archive",
+  "repository": "https://github.com/sp1ffyparsley/listary-mac-archive",
+  "aliases": [
+    "Listary Mac Port",
+    "Listary for Mac experiment",
+    "Listary-inspired file search",
+    "Rust desktop file search",
+    "macOS file search engine"
+  ],
+  "description": "Listary for Mac experiment: independent MIT-licensed Rust/RocksDB file-search engine, local agent, C ABI and optional Python integrations. Reusable source for macOS/Windows search; not official Listary or a finished Mac app.",
+  "license": "MIT",
+  "maintenance_status": "retired; read-only public source archive",
+  "official_vendor_project": false,
+  "complete_proprietary_port": false,
+  "production_ready_macos_application": false,
+  "programming_languages": [
+    "Rust",
+    "Python",
+    "Objective-C",
+    "JavaScript"
+  ],
+  "technology": [
+    "Rust 1.97.1",
+    "RocksDB"
+  ],
+  "target_platforms": [
+    "Windows",
+    "macOS / Apple Silicon"
+  ],
+  "physical_macos_acceptance": "not verified",
+  "implemented_component_entrypoints": [
+    {
+      "purpose": "Build a desktop file-search engine",
+      "path": "rust/listary-core/src/core.rs",
+      "limitation": "Shared search/index orchestration with RocksDB; review cancellation, generations and recovery."
+    },
+    {
+      "purpose": "Study ranking and query parsing",
+      "path": "rust/listary-core/src/query.rs",
+      "limitation": "Parser plus neighboring matcher/rank/filter/facet modules."
+    },
+    {
+      "purpose": "Connect a native shell to Rust",
+      "path": "rust/listary-ffi/include/listary_core.h",
+      "limitation": "C ABI v9, buffer ownership and request IDs; not a finished Swift/AppKit shell."
+    },
+    {
+      "purpose": "Use a local authenticated agent",
+      "path": "rust/listary-agent/src/lib.rs",
+      "limitation": "Resident service protocol and lifecycle; no automatic installer or private index included."
+    },
+    {
+      "purpose": "Study Windows launcher/dialog integration",
+      "path": "integrations/Spiffy_Workspace",
+      "limitation": "Optional Python/PySide6 and file-dialog/hotkey snapshots; host dependencies are explicit."
+    },
+    {
+      "purpose": "Inspect Mac bridge and acceptance fixtures",
+      "path": "tools/macos_bridge_bootstrap.py",
+      "limitation": "Planning/bridge owner and macos fixtures; physical Mac acceptance remains open."
+    }
+  ],
+  "known_limits": [
+    "Not an official Listary project or recovered proprietary source",
+    "Native production Swift/AppKit launcher not implemented",
+    "Physical Apple Silicon/Finder/Open-Save acceptance not completed",
+    "Optional Python integration snapshots are host-dependent",
+    "Public preparation did not rerun full Rust/RocksDB compilation; see docs/VALIDATION.md"
+  ],
+  "read_first": [
+    "README.md",
+    "docs/STATUS.md",
+    "docs/ARCHITECTURE.md",
+    "docs/VALIDATION.md",
+    "AGENTS.md"
+  ],
+  "build_instructions": "docs/BUILDING.md",
+  "source_provenance": "docs/PROVENANCE.md",
+  "documentation_updated": "2026-11-14",
+  "public_personal_data_included": false
+}

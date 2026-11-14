@@ -15,8 +15,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2156,
-      "sha256": "a11b80d3a17e5b499cb77a68180f4b7d0ef6f6fdbae5e7c837be5260dca65618"
+      "bytes": 2536,
+      "sha256": "40afcbe10b66a0de021190828f5726d4f1ebb4ddfada0cab93021f28f927e2b1"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -44,9 +44,14 @@
       "sha256": "1fb34dba156d2a378295c694beff99c93efd77435cbd79f02bc657d22cfdaf59"
     },
     {
+      "path": "PROJECT_INDEX.json",
+      "bytes": 3240,
+      "sha256": "e95d622c3caa7b4d684a69000070bd28738298a4d94fe4703234bce1c7f874aa"
+    },
+    {
       "path": "README.md",
-      "bytes": 3196,
-      "sha256": "45a7ce8790553cbd012306e4ad7252fd3205765e2ee64d836bd7f23359a5d17e"
+      "bytes": 6814,
+      "sha256": "5175cf4fea160bf01e2ee674c02f9203455c4c64bb9d9953d0ac1bc6c507674a"
     },
     {
       "path": "SECURITY.md",
@@ -80,8 +85,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 2570,
-      "sha256": "7184cf600689e55905540e00482e9fe9c9f8f04230cefd79ddaec8c7cc42fc99"
+      "bytes": 3133,
+      "sha256": "cc8beee5078590d1196c7253deb05bc17823e561edd86aaee4403738daed1374"
     },
     {
       "path": "integrations/README.md",

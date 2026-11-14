@@ -23,3 +23,7 @@ The expanded integration review found personal Windows home paths in synthetic t
 Historical Windows performance/test receipts are not fresh proof of the public checkout's entire native engine. In particular, no controlled commercial-product performance comparison or real Mac runtime was performed. Use BUILDING.md and the native header/tests to reproduce missing gates before relying on the software.
 
 Raw logs and runtime receipts remain private. The final publication includes a source manifest and fresh public Git history, with no user database, live endpoint token, private chat or original reflog. Scanner success is not an exhaustive security audit.
+
+## Discoverability documentation update — November 14, 2026
+
+This later change modifies repository metadata and documentation only: search-oriented title/description/topics, README reuse/FAQ sections, PROJECT_INDEX.json, the agent entrypoint note, and the source manifest. Application source and dependency versions are unchanged; the application tests above were not rerun or upgraded to new acceptance claims. Documentation links, JSON, source-manifest consistency and secret scans were checked before the update. Search ranking is not a guaranteed outcome.
